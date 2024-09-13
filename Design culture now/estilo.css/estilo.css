@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", system-ui; 
+
+}
+
+main {
+    width: 1366px;
+    height: 1780px;
+    margin: 0 auto;
+    background-color: rgb(189, 228, 244);
+}
+
+nav {
+    width: 1366px;
+    height: 40px;
+    background-color: rgb(1, 26, 129);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+
+text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav a:hover {
+    background-color: rgb(93, 54, 109);
+    transform: scale(1.2);
+
+}
+
+header {
+    width: 1366px;
+    height: 300px;
+    margin-top: auto;
+}
+
+section {
+    width: 1366px;
+    height: 1600px;
+    
+}
+
+section .izq{
+    width: 300px;
+    
+    float: left;
+    background-color: rgb(85, 220, 220);
+
+    height: 1408px;
+   padding-left: 8px;
+   padding-right: 60px;
+margin-left: 20px;
+}
+  
+section .texto{
+    float: left;
+    text-align: left;
+    font-family: "Montserrat", system-ui;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+section .link{
+    float: left;
+  padding-top: 40px;
+ padding-left: 25px;
+}
+
+section .center{
+    height: 1408px;
+    float: left;
+    width: 680px;
+    background-color: rgb(107, 215, 242);
+  padding-top: 15px;
+  padding-left: 33px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+section.imagen{
+    float:left;
+    padding-left: 33px;
+}
+
+
+section .right{
+    float:left;
+    width: 300px;
+    background-color: rgb(82, 169, 246);
+    height: 1408px;
+   padding: 20px;
+   margin-right: 20px;
+}
+
+
+section.imagen{
+    float:center;
+    width: 200px;
+    padding: 33px;
+}
+footer{
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(1, 26, 129);
+    margin: 0 auto;
+}
